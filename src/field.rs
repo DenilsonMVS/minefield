@@ -74,7 +74,7 @@ impl Field {
         }
 
         if !self.can_see[y][x] {
-            return Some('-');
+            return Some(' ');
         }
 
         if self.mines[y][x] {
